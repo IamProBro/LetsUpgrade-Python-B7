@@ -1,0 +1,8 @@
+alt = input ("Enter current altitude of plane - ")
+alt = int(alt)
+if alt <= 1000:
+    print("It is safe to land")
+elif alt > 1000 and alt <= 5000:
+    print("Bring down the altitude more")
+else:
+    print("Turn the plane around")
